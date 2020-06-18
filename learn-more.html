@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TQI</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" href="Images/icon/favicon.ico">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- COVID -->
+  <div class="bg-warning text-center p-2">
+    <svg class="bi bi-exclamation-triangle" width="1.5em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M7.938 2.016a.146.146 0 0 0-.054.057L1.027 13.74a.176.176 0 0 0-.002.183c.016.03.037.05.054.06.015.01.034.017.066.017h13.713a.12.12 0 0 0 .066-.017.163.163 0 0 0 .055-.06.176.176 0 0 0-.003-.183L8.12 2.073a.146.146 0 0 0-.054-.057A.13.13 0 0 0 8.002 2a.13.13 0 0 0-.064.016zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+      <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z" />
+    </svg>
+    <a class="text-dark font-weight-bold" data-toggle="collapse" href="#covidDropdown" aria-expanded="false" aria-controls="covidDropdown">Concerning COVID-19</a>
+    <div class="collapse" id="covidDropdown">
+      <div class="container bg-warning">
+        <p>This work on City Infrastructure has been deemed essential to ensure infrastructure remains safe, in a state of good repair and able to meet Toronto's needs. TQI personnel will adhere to <a class="text-dark font-weight-bold"
+            href="FINAL_QA Toronto Water Construction During Panademic_Apr 24.pdf">guidelines issued by the city of Toronto.</a> TQI staff will wear PPE (gloves and face masks) and practice social distancing.</p>
+      </div>
+    </div>
+  </div>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark static-top bg-info">
+    <!-- BRAND -->
+    <a class="navbar-brand" href="#">TQI</a>
+    <!-- BREADCRUMB -->
+    <ol class="breadcrumb d-inline-flex p-0 mb-0 bg-info">
+      <li class="breadcrumb-item"><a class="text-white-50" href="index.html">Home</a></li>
+      <li class="breadcrumb-item active text-light" aria-current="page">Map</li>
+    </ol>
+    <!-- TOGGLE BAR -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- NAVBAR ITEMS -->
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="learn-more.html">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="smoke-testing.html">Smoke Testing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dye-testing.html">Dye Testing</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  <main role="main">
+    <!-- TITLE -->
+    <div class="jumbotron bg-info-light">
+      <div class="container">
+        <h1 class="display-4">Map</h1>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <h4>Regions Map</h4>
+      <p>The pink regions are the area being smoked tested. Areas are labelled from 1 to 16</p>
+      <hr>
+      <!-- COLOUMBS-->
+      <div class="map">
+        <img class="img-fluid map" src="Images/SmokeAndDye.jpg" alt="map">
+        <div class="map-point" style= "top: 12%; left: 30%;">
+          <img src="Images/K- Area 2 (1).jpg" class="display-img img-fluid" alt="">
+        </div>
+        <div class="map-point" style="top:21%; right:26%;">
+          <img src="Images/B- Area10 - Toronto New.jpg" class="display-img img-fluid" alt="">
+        </div>
+      </div>
+
+
+
+
+
+      <!-- FOOTER -->
+  </main>
+  <footer class="container">
+    <p>© TQI 2020</p>
+  </footer>
+
+</body>
+
+</html>
