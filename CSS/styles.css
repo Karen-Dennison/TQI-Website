@@ -31,8 +31,8 @@
 
 .display-img{
   opacity: 0;
-  height:100px;
-  width:100px;
+  height:50px;
+  width:50px;
   border-radius: 100%;
 }
 
@@ -46,7 +46,7 @@
   opacity: 100;
   position: relative;
   border-radius: 0;
-  height: 500px;
-  width: 800px;
+  width: 100%;
+  height: auto;
   z-index: 2;
 }
