@@ -100,38 +100,38 @@
         <div class="col-md-6">
           <h3>Send us an message</h3>
           <hr>
-          <form class="" action="mailto:kddtqi@gmail.com" method="post">
+          <form class="" name="contact" method="POST" data-netlify="true">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputName">First Name</label>
-                <input type="text" class="form-control" id="inputName" placeholder="First Name" required>
+                <input type="text" class="form-control" id="inputName" placeholder="First Name" required name="firstName">
               </div>
               <div class="form-group col-md-6">
                 <label for="inputLast">Last Name</label>
-                <input type="text" class="form-control" id="inputLast" placeholder="Last Name" required>
+                <input type="text" class="form-control" id="inputLast" placeholder="Last Name" required name="lastName">
               </div>
 
             </div>
             <div class="form-group">
               <label for="inputEmail4">Email</label>
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required name="email">
             </div>
             <div class="form-group">
               <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required name="address">
             </div>
             <div class="form-group">
               <label for="inputAddress2">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" name="addressTwo">
             </div>
             <div class="form-row">
               <div class="form-group col-md-4">
                 <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity" required>
+                <input type="text" class="form-control" id="inputCity" required name="city">
               </div>
               <div class="form-group col-md-4">
                 <label for="inputState">Province</label>
-                <select id="inputState" class="form-control">
+                <select id="inputState" class="form-control" name="province">
                   <option selected>Choose...</option>
                   <option>Alberta</option>
                   <option>British Columbia</option>
@@ -149,12 +149,12 @@
               </div>
               <div class="form-group col-md-4">
                 <label for="inputZip">Postal Code</label>
-                <input type="text" class="form-control" id="inputZip" required>
+                <input type="text" class="form-control" id="inputZip" required name="zip">
               </div>
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea name="message" rows="8" cols="80" class="form-control" id="message"></textarea>
+              <textarea name="message" rows="8" cols="80" class="form-control" id="message" name="messsage"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
