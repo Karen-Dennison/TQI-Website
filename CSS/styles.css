@@ -23,7 +23,7 @@
 
 .map-point{
   position: absolute;
-  border: 5px;
+  border: 3px;
   border-color: red;
   border-style: solid;
   border-radius: 50%;
