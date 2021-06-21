@@ -47,8 +47,8 @@
   position: relative;
   border-radius: 0;
   max-width: 300%;
-  max-height: 300%;
+  max-height: auto;
   width: 300%;
-  height: 300%;
+  height: auto;
   z-index: 2;
 }
