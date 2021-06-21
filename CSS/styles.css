@@ -46,7 +46,7 @@
   opacity: 100;
   position: relative;
   border-radius: 0;
-  max-width: 300%;
+  max-width: auto;
   max-height: 300%;
   width: auto;
   height: 300%;
