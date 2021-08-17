@@ -46,9 +46,9 @@
   opacity: 100;
   position: relative;
   border-radius: 0;
-  max-width: 300%;
-  max-height: 300%;
-  width: 300%;
-  height: 300%;
+  max-width: 200%;
+  max-height: 200%;
+  width: 200%;
+  height: 200%;
   z-index: 2;
 }
