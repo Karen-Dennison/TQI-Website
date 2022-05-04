@@ -18,6 +18,11 @@
   width: 100% \9;
 }
 
+.img-fluid2{
+  max-width: 200%;
+  width: 200% \9;
+}
+
 .map{
   position: relative;
 }
