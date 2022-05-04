@@ -59,13 +59,13 @@
 }
 
 .display-img2:hover{
-  opacity: 200;
+  opacity: 100;
   position: relative;
   border-radius: 0;
   max-width: 200%;
   max-height: 200%;
   width: 200%;
   height: 200%;
-  z-index: 2;
+  z-index: 3;
 }
 
